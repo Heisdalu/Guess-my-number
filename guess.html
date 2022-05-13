@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="guess.css">
+</head>
+<body>
+ <div class="main-container">
+<header class="header">
+ <p class="text-bundle">
+  <button class="reset-btn">New Game!</button>
+  <span id="range-text"> (Between 1 and 10) </span>
+ </p>
+ <h1 id="guess-no-text">Guess My Number!</h1>
+ <p class="checker">?</p>
+ <!-- divison visibly seen in the box -->
+<p id="line-break"></p>
+<p id="lucky-no">(Guess the Lucky number😁)</p>
+</header>
+
+<main>
+ <section class="left">
+  <span id="warning-text">(🚨from 1 to 10)</span>
+  <input type="number" class="input-checker" placeholder="input here">
+  <button class="check-btn">Check!</button>
+ </section>
+ <section class="right">
+  <p class="message">💭Start Guessing...</p>
+  <p class="label-score">🔋Life: <span id="score">20</span></p>
+  <p class="highscore">🥇Highscore: <span id="highscore-value">0</span></p>
+ </section>
+</main>
+
+<footer>©Created by Divine🔥</footer>
+</div>
+
+<script src="../guessGame/guess.js"></script>
+</body>
+</html>
